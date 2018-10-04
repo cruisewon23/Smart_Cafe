@@ -10,8 +10,8 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 driver.implicitly_wait(3)
 
 driver.get('https://e-onestop.pusan.ac.kr/common/login')
-driver.find_element_by_name('id').send_keys('201324493')
-driver.find_element_by_name('pw').send_keys('dltkddnjs1!')
+driver.find_element_by_name('id').send_keys('##')
+driver.find_element_by_name('pw').send_keys('##')
 driver.find_element_by_xpath('//*[@name="loginForm"]/footer/button').click()
 
 driver.get('https://e-onestop.pusan.ac.kr/menu/grade/D02/D02001?menuId=2000040201&rMenu=04')
